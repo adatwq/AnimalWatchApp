@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7700278C2B7BA8B4003B88A2 /* AnimalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700278B2B7BA8B4003B88A2 /* AnimalAppApp.swift */; };
+		7700278E2B7BA8B4003B88A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700278D2B7BA8B4003B88A2 /* ContentView.swift */; };
+		770027902B7BA8B5003B88A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7700278F2B7BA8B5003B88A2 /* Assets.xcassets */; };
+		770027932B7BA8B5003B88A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770027922B7BA8B5003B88A2 /* Preview Assets.xcassets */; };
+		770027992B7BA8B5003B88A2 /* AnimalApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 770027982B7BA8B5003B88A2 /* AnimalApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7700279E2B7BA8B5003B88A2 /* AnimalAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700279D2B7BA8B5003B88A2 /* AnimalAppApp.swift */; };
+		770027A02B7BA8B5003B88A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700279F2B7BA8B5003B88A2 /* ContentView.swift */; };
+		770027A22B7BA8B6003B88A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770027A12B7BA8B6003B88A2 /* Assets.xcassets */; };
+		770027A52B7BA8B6003B88A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770027A42B7BA8B6003B88A2 /* Preview Assets.xcassets */; };
+		770027B02B7BA8EA003B88A2 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770027AF2B7BA8EA003B88A2 /* AnimalModel.swift */; };
+		770027B12B7BA8F1003B88A2 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770027AF2B7BA8EA003B88A2 /* AnimalModel.swift */; };
+		770027B32B7BA9C5003B88A2 /* MessageListlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770027B22B7BA9C5003B88A2 /* MessageListlViewModel.swift */; };
+		770027B52B7BA9E7003B88A2 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770027B42B7BA9E7003B88A2 /* MessageRow.swift */; };
+		770027B72B7BAA52003B88A2 /* AnimallistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770027B62B7BAA52003B88A2 /* AnimallistViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7700279A2B7BA8B5003B88A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770027802B7BA8B4003B88A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770027972B7BA8B5003B88A2;
+			remoteInfo = "AnimalApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		770027AB2B7BA8B6003B88A2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				770027992B7BA8B5003B88A2 /* AnimalApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		770027882B7BA8B4003B88A2 /* AnimalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7700278B2B7BA8B4003B88A2 /* AnimalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalAppApp.swift; sourceTree = "<group>"; };
+		7700278D2B7BA8B4003B88A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7700278F2B7BA8B5003B88A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770027922B7BA8B5003B88A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		770027982B7BA8B5003B88A2 /* AnimalApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnimalApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7700279D2B7BA8B5003B88A2 /* AnimalAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalAppApp.swift; sourceTree = "<group>"; };
+		7700279F2B7BA8B5003B88A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		770027A12B7BA8B6003B88A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		770027A42B7BA8B6003B88A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		770027AF2B7BA8EA003B88A2 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		770027B22B7BA9C5003B88A2 /* MessageListlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListlViewModel.swift; sourceTree = "<group>"; };
+		770027B42B7BA9E7003B88A2 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		770027B62B7BAA52003B88A2 /* AnimallistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimallistViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		770027852B7BA8B4003B88A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770027952B7BA8B5003B88A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7700277F2B7BA8B4003B88A2 = {
+			isa = PBXGroup;
+			children = (
+				7700278A2B7BA8B4003B88A2 /* AnimalApp */,
+				7700279C2B7BA8B5003B88A2 /* AnimalApp Watch App */,
+				770027892B7BA8B4003B88A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		770027892B7BA8B4003B88A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				770027882B7BA8B4003B88A2 /* AnimalApp.app */,
+				770027982B7BA8B5003B88A2 /* AnimalApp Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7700278A2B7BA8B4003B88A2 /* AnimalApp */ = {
+			isa = PBXGroup;
+			children = (
+				7700278B2B7BA8B4003B88A2 /* AnimalAppApp.swift */,
+				7700278D2B7BA8B4003B88A2 /* ContentView.swift */,
+				770027AF2B7BA8EA003B88A2 /* AnimalModel.swift */,
+				770027B22B7BA9C5003B88A2 /* MessageListlViewModel.swift */,
+				770027B42B7BA9E7003B88A2 /* MessageRow.swift */,
+				7700278F2B7BA8B5003B88A2 /* Assets.xcassets */,
+				770027912B7BA8B5003B88A2 /* Preview Content */,
+			);
+			path = AnimalApp;
+			sourceTree = "<group>";
+		};
+		770027912B7BA8B5003B88A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				770027922B7BA8B5003B88A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7700279C2B7BA8B5003B88A2 /* AnimalApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7700279D2B7BA8B5003B88A2 /* AnimalAppApp.swift */,
+				7700279F2B7BA8B5003B88A2 /* ContentView.swift */,
+				770027B62B7BAA52003B88A2 /* AnimallistViewModel.swift */,
+				770027A12B7BA8B6003B88A2 /* Assets.xcassets */,
+				770027A32B7BA8B6003B88A2 /* Preview Content */,
+			);
+			path = "AnimalApp Watch App";
+			sourceTree = "<group>";
+		};
+		770027A32B7BA8B6003B88A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				770027A42B7BA8B6003B88A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		770027872B7BA8B4003B88A2 /* AnimalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770027AC2B7BA8B6003B88A2 /* Build configuration list for PBXNativeTarget "AnimalApp" */;
+			buildPhases = (
+				770027842B7BA8B4003B88A2 /* Sources */,
+				770027852B7BA8B4003B88A2 /* Frameworks */,
+				770027862B7BA8B4003B88A2 /* Resources */,
+				770027AB2B7BA8B6003B88A2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7700279B2B7BA8B5003B88A2 /* PBXTargetDependency */,
+			);
+			name = AnimalApp;
+			productName = AnimalApp;
+			productReference = 770027882B7BA8B4003B88A2 /* AnimalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		770027972B7BA8B5003B88A2 /* AnimalApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770027A82B7BA8B6003B88A2 /* Build configuration list for PBXNativeTarget "AnimalApp Watch App" */;
+			buildPhases = (
+				770027942B7BA8B5003B88A2 /* Sources */,
+				770027952B7BA8B5003B88A2 /* Frameworks */,
+				770027962B7BA8B5003B88A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnimalApp Watch App";
+			productName = "AnimalApp Watch App";
+			productReference = 770027982B7BA8B5003B88A2 /* AnimalApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		770027802B7BA8B4003B88A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					770027872B7BA8B4003B88A2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					770027972B7BA8B5003B88A2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 770027832B7BA8B4003B88A2 /* Build configuration list for PBXProject "AnimalApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7700277F2B7BA8B4003B88A2;
+			productRefGroup = 770027892B7BA8B4003B88A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				770027872B7BA8B4003B88A2 /* AnimalApp */,
+				770027972B7BA8B5003B88A2 /* AnimalApp Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		770027862B7BA8B4003B88A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770027932B7BA8B5003B88A2 /* Preview Assets.xcassets in Resources */,
+				770027902B7BA8B5003B88A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770027962B7BA8B5003B88A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770027A52B7BA8B6003B88A2 /* Preview Assets.xcassets in Resources */,
+				770027A22B7BA8B6003B88A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		770027842B7BA8B4003B88A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7700278E2B7BA8B4003B88A2 /* ContentView.swift in Sources */,
+				770027B02B7BA8EA003B88A2 /* AnimalModel.swift in Sources */,
+				770027B32B7BA9C5003B88A2 /* MessageListlViewModel.swift in Sources */,
+				7700278C2B7BA8B4003B88A2 /* AnimalAppApp.swift in Sources */,
+				770027B52B7BA9E7003B88A2 /* MessageRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770027942B7BA8B5003B88A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770027A02B7BA8B5003B88A2 /* ContentView.swift in Sources */,
+				770027B12B7BA8F1003B88A2 /* AnimalModel.swift in Sources */,
+				770027B72B7BAA52003B88A2 /* AnimallistViewModel.swift in Sources */,
+				7700279E2B7BA8B5003B88A2 /* AnimalAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7700279B2B7BA8B5003B88A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 770027972B7BA8B5003B88A2 /* AnimalApp Watch App */;
+			targetProxy = 7700279A2B7BA8B5003B88A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		770027A62B7BA8B6003B88A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		770027A72B7BA8B6003B88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		770027A92B7BA8B6003B88A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SVB5AUM5UT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.shahadaloufi.AnimalApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahadaloufi.AnimalApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		770027AA2B7BA8B6003B88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SVB5AUM5UT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.shahadaloufi.AnimalApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahadaloufi.AnimalApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		770027AD2B7BA8B6003B88A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SVB5AUM5UT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahadaloufi.AnimalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		770027AE2B7BA8B6003B88A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = SVB5AUM5UT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnimalApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahadaloufi.AnimalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		770027832B7BA8B4003B88A2 /* Build configuration list for PBXProject "AnimalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770027A62B7BA8B6003B88A2 /* Debug */,
+				770027A72B7BA8B6003B88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770027A82B7BA8B6003B88A2 /* Build configuration list for PBXNativeTarget "AnimalApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770027A92B7BA8B6003B88A2 /* Debug */,
+				770027AA2B7BA8B6003B88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		770027AC2B7BA8B6003B88A2 /* Build configuration list for PBXNativeTarget "AnimalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770027AD2B7BA8B6003B88A2 /* Debug */,
+				770027AE2B7BA8B6003B88A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 770027802B7BA8B4003B88A2 /* Project object */;
+}
